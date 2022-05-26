@@ -8,7 +8,12 @@ Website: http://thevectorlab.net/
 /* Import fonts */
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 
+html{
+    direction: rtl;
+}
+
 body {
+    text-align: right;
     color: #797979;
     background: #f1f2f7;
     font-family: 'Open Sans', sans-serif;
@@ -361,7 +366,7 @@ ul.sidebar-menu li a.active i {
 /*main content*/
 
 #main-content {
-    margin-left: 210px;
+    margin-right: 210px;
     padding-bottom: 50px;
 }
 
@@ -402,7 +407,7 @@ ul.sidebar-menu li a.active i {
 a.logo {
     font-size: 21px;
     color: #2e2e2e;
-    float: left;
+    float: right;
     margin-top: 15px;
     text-transform: uppercase;
 }
@@ -420,13 +425,13 @@ a.logo span {
 /*notification*/
 
 #top_menu .nav > li, ul.top-menu > li {
-    float: left;
+    float: right;
 }
 
 .notify-row {
-    float: left;
+    float: right;
     margin-top: 15px;
-    margin-left: 92px;
+    margin-right: 92px;
 }
 
 .notify-row .notification span.label {
@@ -552,7 +557,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 
 .dropdown-menu.inbox li a .photo img {
     border-radius: 2px 2px 2px 2px;
-    float: left;
+    float: right;
     height: 40px;
     margin-right: 4px;
     width: 40px;
@@ -598,13 +603,13 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 }
 
 .dropdown-menu.extended.logout > li {
-    float: left;
+    float: right;
     text-align: center;
     width: 33.3%;
 }
 
 .dropdown-menu.extended.logout > li:last-child {
-    float: left;
+    float: right;
     text-align: center;
     width: 100%;
     background: #a9d96c;
@@ -775,7 +780,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 /*--sidebar toggle---*/
 
 .sidebar-toggle-box {
-    float: left;
+    float: right;
     padding-right: 15px;
     margin-top: 20px;
 }
@@ -886,7 +891,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
     position: relative;
     width: 4.3%;
     margin: 0px 2%;
-    float: left;
+    float: right;
     text-align: center;
     -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0x;
@@ -1048,7 +1053,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 
 .task-thumb {
     width: 90px;
-    float: left;
+    float: right;
     margin-bottom: 5px;
 }
 
@@ -1063,7 +1068,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 }
 
 .task-progress {
-    float: left;
+    float: right;
 }
 
 .task-thumb-details h1, .task-thumb-details h1 a, .task-progress h1, .task-progress h1 a {
@@ -1371,7 +1376,7 @@ h3.timeline-title {
 
 .timeline-desk .album a {
     margin-right: 5px;
-    float: left;
+    float: right;
 }
 
 .timeline-desk .notification {
@@ -1494,7 +1499,7 @@ h3.timeline-title {
 }
 
 .card-footer.revenue-foot ul li {
-    float: left;
+    float: right;
     width: 33.33%;
 }
 
@@ -1749,7 +1754,7 @@ ul.ft-link li a i {
 }
 
 .post-btn a {
-    float: left;
+    float: right;
     margin-right: 8px;
     font-size: 18px;
     color: #9a9a9a;
@@ -2023,7 +2028,7 @@ ul.ft-link li a i {
 
 .user-head .inbox-avatar {
     width: 65px;
-    float: left;
+    float: right;
 }
 
 .user-head .inbox-avatar img {
@@ -2174,7 +2179,7 @@ ul.labels-info li a i {
     border: none;
     box-shadow: none;
     padding: 0 10px;
-    float: left;
+    float: right;
     border-radius: 4px 0 0 4px;
     color: #8a8a8a;
 }
@@ -2219,7 +2224,7 @@ ul.inbox-pagination  {
 }
 
 ul.inbox-pagination li {
-    float: left;
+    float: right;
 }
 
 .mail-option {
@@ -2337,7 +2342,7 @@ ul.inbox-pagination li {
 }
 
 .attachment-mail ul li {
-    float: left;
+    float: right;
     width: 150px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -2351,7 +2356,7 @@ ul.inbox-pagination li {
     float: right;
 }
 .attachment-mail .file-name {
-    float: left;
+    float: right;
 }
 
 .attachment-mail .links {
@@ -2551,7 +2556,7 @@ ul.inbox-pagination li {
 
 .bio-row {
     width: 50%;
-    float: left;
+    float: right;
     margin-bottom: 10px;
     padding:0 15px;
 }
@@ -2562,7 +2567,7 @@ ul.inbox-pagination li {
 }
 
 .bio-chart, .bio-desk {
-    float: left;
+    float: right;
 }
 
 .bio-chart {
@@ -2657,7 +2662,7 @@ ul.summary-list > li:last-child  {
 
 .activity {
     width: 100%;
-    float: left;
+    float: right;
     margin-bottom: 10px;
 }
 
@@ -2668,7 +2673,7 @@ ul.summary-list > li:last-child  {
 }
 
 .activity span {
-    float: left;
+    float: right;
 }
 
 .activity.alt span {
@@ -2726,7 +2731,7 @@ ul.summary-list > li:last-child  {
 }
 
 .activity .activity-desk i, .activity.alt .activity-desk i {
-    float: left;
+    float: right;
     font-size: 18px;
     margin-right: 10px;
     color: #bebebe;
@@ -2880,7 +2885,7 @@ ul.amounts li {
 }
 
 .dataTables_paginate.paging_bootstrap.pagination li {
-    float: left;
+    float: right;
     margin: 0 1px;
     border: 1px solid #ddd;
     border-radius: 3px;
@@ -3445,7 +3450,7 @@ table.sliders tr td {
     /*cursor: pointer;*/
     /*font-size: 14.994px;*/
     /*font-weight: 700;*/
-    /*float: left;*/
+    /*float: right;*/
     /*height: 29px;*/
     /*line-height: 19px;*/
     /*margin: 0;*/
@@ -3483,7 +3488,7 @@ table.sliders tr td {
     /*border: 4px solid #2A3542;*/
     /*border-radius: 50%;*/
     /*-webkit-border-radius: 50%;*/
-    /*float: left;*/
+    /*float: right;*/
     /*height: 29px;*/
     /*margin: 0 -21px 0 -14px;*/
     /*padding: 0;*/
@@ -3890,7 +3895,7 @@ select.form-control-lg {
 }
 
 .stepy-tab ul li {
-    float: left;
+    float: right;
 }
 
 .step legend {
@@ -3898,7 +3903,7 @@ select.form-control-lg {
 }
 
 .button-back {
-    float: left;
+    float: right;
 }
 
 .button-next, .finish {
@@ -3920,7 +3925,7 @@ select.form-control-lg {
 .stepy-titles li {
     color: #757575;
     cursor: pointer;
-    float: left;
+    float: right;
     margin: 10px 15px;
 }
 
@@ -3966,7 +3971,7 @@ select.form-control-lg {
 }
 
 .user-heading.alt a {
-    float: left;
+    float: right;
     margin-right: 15px;
     margin-left: -10px;
     display: inline-block;
@@ -4176,7 +4181,7 @@ select.form-control-lg {
     padding-top: 0;
 }
 .message-img {
-    float: left;
+    float: right;
     margin-right: 30px;
     overflow: hidden;
 }
@@ -4275,7 +4280,7 @@ span.customSelect.changed {
 
 
 .boxed-page .container aside {
-    float: left;
+    float: right;
 }
 .boxed-page .container .wrapper{
     background: #F1F2F7;
@@ -4375,7 +4380,7 @@ span.customSelect.changed {
 
 #headerLeft
 {
-    float: left;
+    float: right;
     padding: 10px 1px 1px;
 }
 
@@ -4444,7 +4449,7 @@ span.customSelect.changed {
 
 #columns > div
 {
-    float: left;
+    float: right;
     width: 33.3%;
 }
 
@@ -4578,7 +4583,7 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 
 .horizontal-menu {
     margin-left: 50px;
-    float: left;
+    float: right;
     padding: 0;
 }
 
@@ -4788,7 +4793,7 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 .lock-input {
     width: 83% !important;
     border: none;
-    float: left;
+    float: right;
     margin-right: 3px;
 }
 
@@ -4858,7 +4863,7 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 
 .pro-sort {
     padding-right: 20px;
-    float: left;
+    float: right;
 }
 
 .pro-page-list {
@@ -4955,7 +4960,7 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 }
 
 .pro-img-list a {
-    float: left;
+    float: right;
     margin-right: 10px;
     margin-bottom: 10px;
 }
@@ -5175,7 +5180,7 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 .vertical-menu li a {
     background: #fff;
     width: 100%;
-    float: left;
+    float: right;
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 4px;
@@ -5191,7 +5196,7 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 .vertical-menu li a:hover, .vertical-menu li a:focus, .vertical-menu li.active a {
     background: #2A3542;
     width: 100%;
-    float: left;
+    float: right;
     padding: 10px;
     margin-bottom: 5px;
     border-radius: 4px;
@@ -5227,7 +5232,7 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 }
 
 .profile-thumb {
-    float: left;
+    float: right;
     position: relative;
 }
 
@@ -5252,7 +5257,7 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 }
 
 .fb-user-thumb {
-    float: left;
+    float: right;
     width: 70px;
     margin-right:15px;
 }
@@ -5322,7 +5327,7 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 
 .fb-comments .cmt-thumb  {
     width: 50px;
-    float: left;
+    float: right;
     margin-right: 15px;
 }
 
@@ -5462,7 +5467,7 @@ tr.odd.gradeX td.sorting_1, tr.even.gradeX td.sorting_1, table.display tr.even.g
 
 
 .chat-room .user-head i {
-   float: left;
+   float: right;
    font-size: 40px;
    margin-right: 10px;
 }
@@ -5610,11 +5615,11 @@ ul.chat-user li a:hover{
     width: 40px;
     height: 40px;
     border: 2px solid #fff;
-    float: left;
+    float: right;
 }
 
 .chat-room .left-side footer .user-status {
-    float: left;
+    float: right;
     margin: 10px;
 }
 
@@ -5723,12 +5728,12 @@ ul.chat-available-user li i {
 
 .group-rom {
     width: 100%;
-    float: left;
+    float: right;
     border-bottom: 1px solid #eaebee;
 }
 
 .group-rom .first-part, .group-rom .second-part, .group-rom .third-part {
-    float: left;
+    float: right;
     padding: 15px;
 }
 
@@ -5768,7 +5773,7 @@ a.guest-on i {
 }
 
 .chat-txt {
-    float: left;
+    float: right;
     width: 70%;
     margin-right: 5px;
 }
@@ -5973,7 +5978,7 @@ a.guest-on i {
 /*mega-menu*/
 
 .mega-menu {
-    float: left;
+    float: right;
     margin:5px 0 0 10px;
 }
 
@@ -6060,7 +6065,7 @@ a.guest-on i {
 }
 
 .icon-img {
-    float: left;
+    float: right;
     margin-right: 10px;
 }
 
@@ -6442,12 +6447,12 @@ header.blue-bg .search:focus {
 .radio-list .radio input {
     width: 18px;
     height: 18px;
-    float: left;
+    float: right;
     margin: 0 10px 0 0;
 }
 
 .checkbox-list .checker span {
-    float: left;
+    float: right;
     margin-right: 10px;
 }
 

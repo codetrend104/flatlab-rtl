@@ -396,10 +396,10 @@ ul.sidebar-menu li a.active i {
 
     margin: 0px auto;
     padding:80px 15px 15px 15px;
-    max-width: 1200px;
+    /* max-width: 1200px; */
+    width: 100%;
 
     /*display: inline-block;*/
-    /*width: 100%;*/
     /*margin-top: 60px;*/
     /*padding: 15px;*/
 }
@@ -6541,10 +6541,10 @@ header.blue-bg .search:focus {
 /*-----*/
 
 .is-sidebar-nav-open #sidebar{
-    margin-left: -210px;
+    margin-right: -210px;
 }
 .is-sidebar-nav-open #main-content{
-    margin-left: 0px;
+    margin-right: 0px;
 }
 
 

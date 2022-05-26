@@ -186,7 +186,7 @@ a, a:hover, a:focus {
 }
 
 #sidebar .sub-menu > .sub li  {
-    padding-left: 32px;
+    padding-right: 32px;
 }
 
 #sidebar .sub-menu > .sub li:last-child {
@@ -218,7 +218,7 @@ a, a:hover, a:focus {
     position: relative;
     top: -13px;
 
-    float: right;
+    float: left;
 }
 .dcjq-icon:before
 {
@@ -228,7 +228,7 @@ a, a:hover, a:focus {
 
     position: absolute;
     top: 14px;
-    right: 1rem;
+    left: 1rem;
 
     content: '\f107';
     -webkit-transition: all .3s ease;
@@ -6559,7 +6559,7 @@ header.blue-bg .search:focus {
 }
 
 .light-sidebar-nav ul.sidebar-menu li a {
-    border-radius: 0 40px 40px 0;
+    border-radius: 40px 0 0 40px;
 }
 
 .light-sidebar-nav ul.sidebar-menu li a.active,
@@ -6587,9 +6587,9 @@ header.blue-bg .search:focus {
 .light-sidebar-nav ul.sidebar-menu > li > a:hover,
 .light-sidebar-nav ul.sidebar-menu > li > a:focus {
     background: rgba(237, 77, 83, .06);
-    border-left: 3px solid #ff6c60;
+    border-right: 3px solid #ff6c60;
     color: #ff6c60;
-    border-radius: 0 40px 40px 0;
+    border-radius: 40px 0 0 40px;
 }
 
 .light-sidebar-nav ul.sidebar-menu li a.active {
